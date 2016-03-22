@@ -1,0 +1,48 @@
+unit Unit3;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, System.Rtti, Data.Bind.EngExt,
+  Fmx.Bind.DBEngExt, Fmx.Bind.Grid, System.Bindings.Outputs, Fmx.Bind.Editors, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.StorageBin, FMX.ListView.Types, FMX.ListView.Appearances,
+  FMX.ListView.Adapters.Base, FMX.ListView, FMX.TabControl, Data.Bind.Components, FMX.StdCtrls,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FMX.ListBox, FMX.Controls.Presentation,
+  Data.Bind.Grid, Data.Bind.DBScope, FMX.Layouts, FMX.Grid;
+
+type
+  TForm3 = class(TForm)
+    Grid1: TGrid;
+    BindSourceDB1: TBindSourceDB;
+    BindingsList1: TBindingsList;
+    LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
+    Panel1: TPanel;
+    ListBox1: TListBox;
+    ListBoxHeader1: TListBoxHeader;
+    LinkListControlToField1: TLinkListControlToField;
+    FDMemTable1: TFDMemTable;
+    Label1: TLabel;
+    LinkPropertyToFieldText: TLinkPropertyToField;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    TabItem2: TTabItem;
+    TabItem3: TTabItem;
+    ListView1: TListView;
+    LinkFillControlToField1: TLinkFillControlToField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.fmx}
+{$R *.NmXhdpiPh.fmx ANDROID}
+
+end.

@@ -1,0 +1,77 @@
+inherited Form5_LgXhdpiPh: TForm5_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited FootPanel: TPanel
+    Position.Y = 645.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited ProgressBar1: TProgressBar
+      Size.Width = 450.000000000000000000
+      Size.Height = 10.000000000000000000
+    end
+    inherited Label2: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 440.000000000000000000
+    Size.Height = 645.000000000000000000
+    Viewport.Width = 435.000000000000000000
+    Viewport.Height = 597.000000000000000000
+    inherited ListBoxGroupHeader1: TListBoxGroupHeader
+      Size.Width = 435.000000000000000000
+    end
+    inherited ListBoxItem2: TListBoxItem
+      Position.Y = 74.000000000000000000
+    end
+    inherited ListBoxItem3: TListBoxItem
+      Position.Y = 118.000000000000000000
+    end
+    inherited ListBoxItem4: TListBoxItem
+      Position.Y = 162.000000000000000000
+    end
+    inherited ListBoxGroupHeader2: TListBoxGroupHeader
+      Position.Y = 206.000000000000000000
+      Size.Width = 435.000000000000000000
+    end
+    inherited ListBoxItem5: TListBoxItem
+      Position.Y = 236.000000000000000000
+    end
+    inherited ListBoxItem6: TListBoxItem
+      Position.Y = 280.000000000000000000
+    end
+    inherited ListBoxItem7: TListBoxItem
+      Position.Y = 324.000000000000000000
+    end
+    inherited ListBoxItem8: TListBoxItem
+      Position.Y = 368.000000000000000000
+    end
+    inherited ListBoxGroupHeader3: TListBoxGroupHeader
+      Position.Y = 412.000000000000000000
+      Size.Width = 435.000000000000000000
+    end
+    inherited ListBoxItem9: TListBoxItem
+      Position.Y = 442.000000000000000000
+    end
+    inherited ListBoxItem10: TListBoxItem
+      Position.Y = 486.000000000000000000
+    end
+    inherited ListBoxItem11: TListBoxItem
+      Position.Y = 530.000000000000000000
+    end
+    inherited ListBoxItem12: TListBoxItem
+      Position.Y = 574.000000000000000000
+    end
+    inherited ListBoxHeader1: TListBoxHeader
+      Size.Width = 440.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 420.000000000000000000
+      end
+    end
+  end
+  inherited StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+  end
+end

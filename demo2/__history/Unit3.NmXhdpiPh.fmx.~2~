@@ -1,0 +1,57 @@
+inherited Form3_NmXhdpiPh: TForm3_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited TabControl1: TTabControl
+    Size.Width = 400.000000000000000000
+    Size.Height = 563.000000000000000000
+    TabHeight = 49.000000000000000000
+    inherited TabItem1: TTabItem
+      Size.Width = 133.000000000000000000
+      Size.Height = 49.000000000000000000
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ListBox1: TListBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 514.000000000000000000
+        ItemIndex = -1
+        Viewport.Width = 395.000000000000000000
+        Viewport.Height = 466.000000000000000000
+        inherited ListBoxHeader1: TListBoxHeader
+          Size.Width = 400.000000000000000000
+          Size.Height = 48.000000000000000000
+          inherited Label1: TLabel
+            Size.Width = 400.000000000000000000
+            Size.Height = 48.000000000000000000
+          end
+        end
+      end
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 133.000000000000000000
+      Size.Height = 49.000000000000000000
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ListView1: TListView
+        Size.Width = 400.000000000000000000
+        Size.Height = 514.000000000000000000
+      end
+    end
+    inherited TabItem3: TTabItem
+      Size.Width = 134.000000000000000000
+      Size.Height = 49.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Grid1: TGrid
+        Size.Width = 400.000000000000000000
+        Size.Height = 514.000000000000000000
+        Viewport.Width = 395.000000000000000000
+        Viewport.Height = 477.000000000000000000
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Position.Y = 563.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+end

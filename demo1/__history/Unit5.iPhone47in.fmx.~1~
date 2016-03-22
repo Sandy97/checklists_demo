@@ -1,0 +1,72 @@
+inherited Form5_iPhone47in: TForm5_iPhone47in
+  ClientHeight = 647
+  ClientWidth = 375
+  DesignerMasterStyle = 3
+  inherited FootPanel: TPanel
+    Position.Y = 597.000000000000000000
+    Size.Width = 375.000000000000000000
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 365.000000000000000000
+    Size.Height = 597.000000000000000000
+    Viewport.Width = 360.000000000000000000
+    Viewport.Height = 553.000000000000000000
+    inherited ListBoxGroupHeader1: TListBoxGroupHeader
+      Size.Width = 360.000000000000000000
+      Size.Height = 22.000000000000000000
+    end
+    inherited ListBoxItem1: TListBoxItem
+      Position.Y = 22.000000000000000000
+    end
+    inherited ListBoxItem2: TListBoxItem
+      Position.Y = 66.000000000000000000
+    end
+    inherited ListBoxItem3: TListBoxItem
+      Position.Y = 110.000000000000000000
+    end
+    inherited ListBoxItem4: TListBoxItem
+      Position.Y = 154.000000000000000000
+    end
+    inherited ListBoxGroupHeader2: TListBoxGroupHeader
+      Position.Y = 198.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 22.000000000000000000
+    end
+    inherited ListBoxItem5: TListBoxItem
+      Position.Y = 220.000000000000000000
+    end
+    inherited ListBoxItem6: TListBoxItem
+      Position.Y = 264.000000000000000000
+    end
+    inherited ListBoxItem7: TListBoxItem
+      Position.Y = 308.000000000000000000
+    end
+    inherited ListBoxItem8: TListBoxItem
+      Position.Y = 352.000000000000000000
+    end
+    inherited ListBoxGroupHeader3: TListBoxGroupHeader
+      Position.Y = 396.000000000000000000
+      Size.Width = 360.000000000000000000
+    end
+    inherited ListBoxItem9: TListBoxItem
+      Position.Y = 440.000000000000000000
+    end
+    inherited ListBoxItem10: TListBoxItem
+      Position.Y = 484.000000000000000000
+    end
+    inherited ListBoxItem11: TListBoxItem
+      Position.Y = 528.000000000000000000
+    end
+    inherited ListBoxItem12: TListBoxItem
+      Position.Y = 572.000000000000000000
+    end
+    inherited ListBoxHeader1: TListBoxHeader
+      Size.Width = 365.000000000000000000
+      Size.Height = 44.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 345.000000000000000000
+        Size.Height = 44.000000000000000000
+      end
+    end
+  end
+end

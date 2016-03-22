@@ -1,0 +1,44 @@
+inherited Form3_LgXhdpiPh: TForm3_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 643.000000000000000000
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ListBox1: TListBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 643.000000000000000000
+        Viewport.Width = 445.000000000000000000
+        Viewport.Height = 595.000000000000000000
+        inherited ListBoxHeader1: TListBoxHeader
+          Size.Width = 450.000000000000000000
+          inherited Label1: TLabel
+            Size.Width = 450.000000000000000000
+          end
+        end
+      end
+    end
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ListView1: TListView
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Position.Y = 643.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited Button1: TButton
+      Position.X = 148.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

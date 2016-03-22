@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.802,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\ABC\checklists\demo2\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.768,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.537,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.802,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.fmx=C:\ABC\checklists\demo2\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.094,C:\ABC\checklists\demo2\demo2.dproj=C:\ABC\checklists\demo2\demo2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.013,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\ABC\checklists\demo2\demo2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=emsserverapi.dcp</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pabc iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

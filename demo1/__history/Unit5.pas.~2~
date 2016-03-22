@@ -1,0 +1,48 @@
+unit Unit5;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.ListBox, FMX.StdCtrls,
+  FMX.Layouts, FMX.Controls.Presentation;
+
+type
+  TForm5 = class(TForm)
+    FootPanel: TPanel;
+    ListBox1: TListBox;
+    ListBoxHeader1: TListBoxHeader;
+    Label1: TLabel;
+    ListBoxGroupHeader1: TListBoxGroupHeader;
+    ListBoxItem1: TListBoxItem;
+    ListBoxItem2: TListBoxItem;
+    ListBoxItem3: TListBoxItem;
+    ListBoxItem4: TListBoxItem;
+    ListBoxGroupHeader2: TListBoxGroupHeader;
+    ListBoxItem5: TListBoxItem;
+    ListBoxItem6: TListBoxItem;
+    ListBoxItem7: TListBoxItem;
+    ListBoxItem8: TListBoxItem;
+    ListBoxGroupHeader3: TListBoxGroupHeader;
+    ListBoxItem9: TListBoxItem;
+    ListBoxItem10: TListBoxItem;
+    ListBoxItem11: TListBoxItem;
+    ListBoxItem12: TListBoxItem;
+    StyleBook1: TStyleBook;
+    ProgressBar1: TProgressBar;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form5: TForm5;
+
+implementation
+
+{$R *.fmx}
+{$R *.iPhone47in.fmx IOS}
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+end.
