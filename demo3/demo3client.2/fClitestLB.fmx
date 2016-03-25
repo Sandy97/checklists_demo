@@ -1,0 +1,187 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 750
+  ClientWidth = 373
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Grid1: TGrid
+    Align = Bottom
+    Position.Y = 517.000000000000000000
+    Size.Width = 373.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 10
+    RowHeight = 21.000000000000000000
+    Viewport.Width = 353.000000000000000000
+    Viewport.Height = 192.000000000000000000
+  end
+  object TabControl1: TTabControl
+    Size.Width = 373.000000000000000000
+    Size.Height = 433.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'tabcontrolstyle'
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 3
+    TabPosition = Dots
+    object tiTasks: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiTasks'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+    object tiCheckList: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiCheckList'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ListBox1: TListBox
+        Size.Width = 373.000000000000000000
+        Size.Height = 393.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'transparentlistboxstyle'
+        TabOrder = 0
+        DisableFocusEffect = True
+        ItemIndex = 0
+        Items.Strings = (
+          #1061#1086#1083#1086#1076#1080#1083#1100#1085#1080#1082' '#1095#1080#1089#1090#1099#1081
+          #1061#1086#1083#1086#1076#1080#1083#1100#1085#1080#1082' '#1080#1089#1087#1088#1072#1074#1085#1099#1081
+          #1061#1086#1083#1086#1076#1080#1083#1100#1085#1080#1082' '#1079#1072#1075#1088#1091#1078#1077#1085' '#1087#1088#1086#1076#1091#1082#1090#1072#1084#1080
+          #1050#1072#1089#1089#1072' '#1095#1080#1089#1090#1072#1103
+          #1050#1072#1089#1089#1072' '#1080#1089#1087#1088#1072#1074#1085#1072
+          #1050#1072#1089#1089#1072' '#1080#1089#1087#1086#1083#1100#1079#1091#1077#1090#1089#1103
+          #1050#1086#1085#1076#1080#1094#1080#1086#1085#1077#1088#1099' '#1080#1089#1087#1088#1072#1074#1085#1099#1077
+          #1045#1089#1090#1100' '#1087#1088#1086#1089#1088#1086#1095#1077#1085#1085#1099#1081' '#1090#1086#1074#1072#1088
+          #1045#1089#1090#1100' '#1087#1088#1086#1089#1088#1086#1095#1077#1085#1085#1099#1081' '#1090#1086#1074#1072#1088
+          #1058#1086#1074#1072#1088' '#1088#1072#1079#1083#1086#1078#1077#1085
+          #1058#1086#1074#1072#1088' '#1088#1072#1079#1083#1086#1078#1077#1085
+          #1047#1086#1085#1072' '#1095#1080#1089#1090#1072#1103' '#1080' '#1073#1077#1079' '#1087#1086#1089#1090#1086#1088#1086#1085#1085#1080#1093' '#1079#1072#1087#1072#1093#1086#1074)
+        DefaultItemStyles.ItemStyle = 'listboxitemleftdetail'
+        DefaultItemStyles.GroupHeaderStyle = 'listboxgroupheader'
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 373.000000000000000000
+        Viewport.Height = 345.000000000000000000
+        object ListBoxHeader1: TListBoxHeader
+          Hint = 'dddddd'
+          Size.Width = 373.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Label1: TLabel
+            Align = HorzCenter
+            AutoSize = True
+            Position.X = 114.000000000000000000
+            Size.Width = 144.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = #1055#1088#1086#1074#1077#1088#1082#1072' '#1090#1086#1088#1075#1086#1074#1086#1075#1086' '#1079#1072#1083#1072
+          end
+        end
+      end
+    end
+    object tiResults: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiResults'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+  end
+  object ListBoxItem1: TListBoxItem
+    IsChecked = True
+    ItemData.Detail = 'qqqq'
+    ItemData.Accessory = aCheckmark
+    Position.Y = 250.000000000000000000
+    Text = #1061#1086#1083#1086#1076#1080#1083#1100#1085#1080#1082' '#1095#1080#1089#1090#1099#1081
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataModule6.fqSuresults
+    ScopeMappings = <>
+    Left = 160
+    Top = 272
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 276
+    Top = 93
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'Q_PROMPT'
+      Control = ListBox1
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'GR_NAME'
+      FillBreakGroups = <>
+    end
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB3
+      FieldName = 'CL_TITLE'
+      Component = Label1
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText2: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'prompt'
+      Component = ListBoxItem1
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldIsChecked: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'A_VALUE'
+      Component = ListBoxItem1
+      ComponentProperty = 'IsChecked'
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = DataModule6.fqCheckList
+    ScopeMappings = <>
+    Left = 176
+    Top = 408
+  end
+  object BindSourceDB3: TBindSourceDB
+    DataSet = DataModule6.fqTask
+    ScopeMappings = <>
+    Left = 232
+    Top = 288
+  end
+end

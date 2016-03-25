@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.291,C:\ABC\checklists\demo3\demo3.groupproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\ABC\checklists\demo3\demo3client.2\Demo3Client_2.dproj"/>
+	</Default.Personality>
+</BorlandProject>

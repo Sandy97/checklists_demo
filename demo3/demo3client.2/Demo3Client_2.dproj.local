@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\ABC\checklists\ClientListbox\dmClientLB.pas=C:\ABC\checklists\ClientListbox\dmtestLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.110,=C:\ABC\checklists\ClientListbox\dmClientLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,C:\ABC\checklists\ClientListbox\dmCLServer.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.386,C:\ABC\checklists\ClientListbox\dmClientLB.pas=C:\ABC\checklists\ClientListbox\dmCLServer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\ABC\checklists\demo3\demo3client.2\dmCLEMS.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\ABC\checklists\ClientListbox\dmCLEMS.dfm=C:\ABC\checklists\ClientListbox\dmCLServer.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.738,C:\ABC\checklists\ClientListbox\fClitestLB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.903,C:\ABC\checklists\ClientListbox\fClient2.pas=C:\ABC\checklists\ClientListbox\fClitestLB02.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\ABC\checklists\ClientListbox\dmCLEMS.pas=C:\ABC\checklists\ClientListbox\dmCLServer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.903,C:\ABC\checklists\ClientListbox\fClient2.fmx=C:\ABC\checklists\ClientListbox\fClitestLB02.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,C:\ABC\checklists\demo3\demo3client.2\Demo3Client_2.dproj=C:\ABC\checklists\demo3\demo3client.2\ClientListbox.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.386,C:\ABC\checklists\ClientListbox\dmClientLB.dfm=C:\ABC\checklists\ClientListbox\dmCLServer.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.453,=C:\ABC\checklists\ClientListbox\dmCLServer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\ABC\checklists\ClientListbox\dmClientLB.dfm=C:\ABC\checklists\ClientListbox\dmtestLB.dfm</Transaction>
+    <Transaction>2016.03.25 13:53:54.996,=C:\ABC\checklists\demo3\demo3client.2\dmCLServer.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="CB5A1XH07R"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="apk-expansion.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="fClient2.pas"/>
+    <File Path="fClient2.fmx"/>
+    <File Path="dmClientLB.pas"/>
+    <File Path="dmClientLB.dfm"/>
+    <File Path="dmCLServer.pas"/>
+    <File Path="dmCLServer.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

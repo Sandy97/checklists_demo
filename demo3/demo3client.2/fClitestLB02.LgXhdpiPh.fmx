@@ -1,0 +1,91 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited tbcMain: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    TabIndex = 3
+    inherited tabTasks: TTabItem [0]
+      ExplicitSize.cx = 66.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited tbarTop: TToolBar
+        Size.Width = 450.000000000000000000
+        inherited Label2: TLabel
+          Position.X = 45.000000000000000000
+        end
+        inherited btRefresh: TButton
+          Position.X = 402.000000000000000000
+        end
+      end
+      inherited lbCLTitle: TLabel
+        Size.Width = 430.000000000000000000
+      end
+      inherited lbPlaceNm: TLabel
+        Size.Width = 430.000000000000000000
+      end
+      inherited tbarFoot: TToolBar
+        Position.Y = 647.000000000000000000
+        Size.Width = 450.000000000000000000
+        inherited btNext: TButton
+          Position.X = 402.000000000000000000
+        end
+        inherited btSave: TButton
+          Position.X = 201.000000000000000000
+          Size.Width = 48.000000000000000000
+        end
+      end
+      inherited Panel1: TPanel
+        Size.Width = 450.000000000000000000
+        inherited lbPriority: TLabel
+          Position.X = 269.000000000000000000
+        end
+        inherited lbusr_id: TLabel
+          Position.X = 418.000000000000000000
+        end
+      end
+      inherited lbComments: TLabel
+        Size.Width = 430.000000000000000000
+        Size.Height = 436.000000000000000000
+      end
+    end
+    inherited tabCheckList: TTabItem [1]
+      ExplicitSize.cx = 87.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited lstAnketa: TListBox
+        Viewport.Width = 30.000000000000000000
+        Viewport.Height = 0.000000000000000000
+        inherited ListBoxHeader1: TListBoxHeader
+          Size.Width = 50.000000000000000000
+        end
+        inherited SearchBox1: TSearchBox
+          Size.Width = 50.000000000000000000
+        end
+      end
+    end
+    inherited tabUtils: TTabItem [2]
+      ExplicitSize.cx = 60.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    inherited tabOpenClose: TTabItem [3]
+      ExplicitSize.cx = 114.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout1: TLayout
+        Size.Width = 329.000000000000000000
+        inherited edUserName: TEdit
+          inherited Label4: TLabel
+            Position.X = 104.000000000000000000
+          end
+        end
+        inherited edPsw: TEdit
+          inherited Label3: TLabel
+            Position.X = 104.000000000000000000
+          end
+        end
+      end
+    end
+  end
+  inherited BindSourceDB1: TBindSourceDB
+    DataSource.OnDataChange = nil
+  end
+end

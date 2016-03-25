@@ -1,0 +1,459 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 589
+  ClientWidth = 367
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object tbcMain: TTabControl
+    Align = Client
+    Size.Width = 367.000000000000000000
+    Size.Height = 589.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = Dots
+    object tabOpenClose: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabOpenClose'
+      object Layout1: TLayout
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 20.000000000000000000
+        Position.Y = 288.000000000000000000
+        Size.Width = 327.000000000000000000
+        Size.Height = 245.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object edUserName: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 112.000000000000000000
+          Position.Y = 40.000000000000000000
+          object Label4: TLabel
+            Position.Y = -19.000000000000000000
+            Text = #1048#1084#1103' '#1055#1086#1083#1100#1079#1086#1074#1072#1090#1077#1083#1103
+          end
+        end
+        object edPsw: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Password = True
+          Position.X = 112.000000000000000000
+          Position.Y = 112.000000000000000000
+          object Label3: TLabel
+            Position.Y = -19.000000000000000000
+            Text = #1055#1072#1088#1086#1083#1100
+          end
+        end
+        object Button1: TButton
+          Position.X = 120.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button1'
+        end
+      end
+    end
+    object tabTasks: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Padding.Left = 40.000000000000000000
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabTasks'
+      ExplicitSize.cx = 66.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object tbarTop: TToolBar
+        Size.Width = 369.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label2: TLabel
+          Align = HorzCenter
+          AutoSize = True
+          Position.X = 4.000000000000000000
+          Size.Width = 312.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'listboxheaderlabel'
+          TextSettings.WordWrap = False
+          Text = '   '#1047#1072#1076#1072#1095#1080' '#1085#1072' '#1089#1084#1077#1085#1091' <<29.09.2015>>'
+        end
+        object btRefresh: TButton
+          Align = Right
+          Position.X = 321.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          TabOrder = 1
+          Text = 'btRefresh'
+          OnClick = btRefreshClick
+        end
+      end
+      object lbCLTitle: TLabel
+        Align = Top
+        AutoSize = True
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 53.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxheaderlabel'
+        TextSettings.VertAlign = Leading
+        TextSettings.WordWrap = False
+        Text = #1055#1088#1086#1074#1077#1088#1082#1072' '#1090#1086#1088#1075#1086#1074#1086#1075#1086' '#1079#1072#1083#1072
+      end
+      object lbPlaceNm: TLabel
+        Align = Top
+        AutoSize = True
+        Padding.Left = 40.000000000000000000
+        Padding.Right = 40.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 89.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemlabel'
+        TextSettings.VertAlign = Leading
+        TextSettings.WordWrap = False
+        Text = #1058#1086#1088#1075#1086#1074#1099#1081' '#1079#1072#1083
+      end
+      object tbarFoot: TToolBar
+        Align = Bottom
+        Position.Y = 430.000000000000000000
+        Size.Width = 369.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object btPrior: TButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'priortoolbutton'
+          TabOrder = 0
+          Text = 'btPrior'
+          OnClick = btPriorClick
+        end
+        object btNext: TButton
+          Align = Right
+          Position.X = 321.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'nexttoolbutton'
+          TabOrder = 1
+          Text = 'btNext'
+          OnClick = btNextClick
+        end
+        object btSave: TButton
+          Align = VertCenter
+          Position.X = 48.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'organizetoolbutton'
+          TabOrder = 2
+          Text = 'btSave'
+        end
+      end
+      object Panel1: TPanel
+        Align = Top
+        Padding.Left = 20.000000000000000000
+        Padding.Right = 20.000000000000000000
+        Position.Y = 114.000000000000000000
+        Size.Width = 369.000000000000000000
+        Size.Height = 87.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object lbByDate: TLabel
+          AutoSize = True
+          Padding.Left = 20.000000000000000000
+          Position.X = 12.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 61.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toolbuttonlabel'
+          TextSettings.WordWrap = False
+          Text = '29.09.2015'
+        end
+        object lbPriority: TLabel
+          Position.X = 150.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 93.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toolbuttonlabel'
+          TextSettings.WordWrap = False
+          Text = #1055#1088#1080#1086#1088#1080#1090#1077#1090': 2'
+        end
+        object lbusr_id: TLabel
+          Position.X = 288.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 61.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'listboxitemdetaillabel'
+          TextSettings.HorzAlign = Trailing
+          TextSettings.WordWrap = False
+          Text = '5'
+        end
+        object lbStatus: TLabel
+          Position.X = 10.000000000000000000
+          Position.Y = 56.000000000000000000
+        end
+        object lbDone: TLabel
+          Position.X = 152.000000000000000000
+          Position.Y = 56.000000000000000000
+        end
+        object lbNext_Q: TLabel
+          Position.X = 272.000000000000000000
+          Position.Y = 56.000000000000000000
+        end
+      end
+      object lbComments: TLabel
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 219.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemlabel'
+        TextSettings.VertAlign = Leading
+        Text = 'for tests'
+      end
+    end
+    object tabCheckList: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabCheckList'
+      ExplicitSize.cx = 87.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object lstAnketa: TListBox
+        Align = Client
+        Size.Width = 50.000000000000000000
+        Size.Height = 2.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 30.000000000000000000
+        Viewport.Height = 0.000000000000000000
+        object ListBoxGroupHeader1: TListBoxGroupHeader
+          Size.Width = 30.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'ListBoxGroupHeader1'
+        end
+        object ListBoxItem1: TListBoxItem
+          Position.Y = 30.000000000000000000
+          TabOrder = 1
+          Text = 'ListBoxItem1'
+        end
+        object ListBoxHeader1: TListBoxHeader
+          Size.Width = 46.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object SearchBox1: TSearchBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          Position.Y = 48.000000000000000000
+          Size.Width = 46.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object AnketaHeaderToolBar: TToolBar
+        Size.Width = 50.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label1: TLabel
+          Align = Client
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'listboxheaderlabel'
+          TextSettings.HorzAlign = Center
+          TextSettings.Trimming = Word
+          Text = 'Label1'
+        end
+        object btAnketaRight: TSpeedButton
+          Align = Right
+          Position.X = -30.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'btAnketaRight'
+        end
+        object btBackToTasks: TSpeedButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          Text = 'Tasks'
+        end
+      end
+    end
+    object tabUtils: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabUtils'
+      ExplicitSize.cx = 60.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSource.OnDataChange = BindSourceDB1SubDataSourceDataChange
+    DataSet = DataModule6.fqTask
+    ScopeMappings = <>
+    Left = 176
+    Top = 200
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 252
+    Top = 229
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'place_nm'
+      Component = lbPlaceNm
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText2: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'COMMENTS'
+      Component = lbComments
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText3: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'CL_TITLE'
+      Component = lbCLTitle
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText4: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'TSK_ID'
+      Component = lbusr_id
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText5: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PRIORITY'
+      Component = lbPriority
+      CustomFormat = #39#1055#1088#1080#1086#1088#1080#1090#1077#1090': '#39' + value'
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText6: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'BYDATE'
+      Component = lbByDate
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText7: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'STATUS'
+      Component = lbStatus
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText8: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'DONE'
+      Component = lbDone
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText9: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'NEXT_Q'
+      Component = lbNext_Q
+      ComponentProperty = 'Text'
+    end
+  end
+  object ActionList1: TActionList
+    Left = 65
+    Top = 96
+    object acStartSurvey: TAction
+      Text = 'acStartSurvey'
+      OnExecute = acStartSurveyExecute
+    end
+    object acSwitchToCheckList: TChangeTabAction
+      Category = 'Tab'
+      Tab = tabCheckList
+    end
+    object acSwitchToTasks: TChangeTabAction
+      Category = 'Tab'
+      Tab = tabTasks
+    end
+    object acSwitchToUtils: TChangeTabAction
+      Category = 'Tab'
+      Tab = tabUtils
+    end
+    object acPost: TAction
+      Text = 'acPost'
+      OnExecute = acPostExecute
+    end
+  end
+end
