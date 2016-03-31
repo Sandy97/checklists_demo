@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3B81B18F-9513-443C-B3A9-264D9723D0FD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\ChecklistsServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\checklists\ClientListbox\ChecklistClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\_RADdeveloping\EMSDemoPkg\EMSDemoPkg.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\checklists\_delete\Project4.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ChecklistsServer">
+        <MSBuild Projects="Server\ChecklistsServer.dproj"/>
+    </Target>
+    <Target Name="ChecklistsServer:Clean">
+        <MSBuild Projects="Server\ChecklistsServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChecklistsServer:Make">
+        <MSBuild Projects="Server\ChecklistsServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChecklistClient">
+        <MSBuild Projects="..\..\checklists\ClientListbox\ChecklistClient.dproj"/>
+    </Target>
+    <Target Name="ChecklistClient:Clean">
+        <MSBuild Projects="..\..\checklists\ClientListbox\ChecklistClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChecklistClient:Make">
+        <MSBuild Projects="..\..\checklists\ClientListbox\ChecklistClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EMSDemoPkg">
+        <MSBuild Projects="C:\_RADdeveloping\EMSDemoPkg\EMSDemoPkg.dproj"/>
+    </Target>
+    <Target Name="EMSDemoPkg:Clean">
+        <MSBuild Projects="C:\_RADdeveloping\EMSDemoPkg\EMSDemoPkg.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EMSDemoPkg:Make">
+        <MSBuild Projects="C:\_RADdeveloping\EMSDemoPkg\EMSDemoPkg.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project4">
+        <MSBuild Projects="..\..\checklists\_delete\Project4.dproj"/>
+    </Target>
+    <Target Name="Project4:Clean">
+        <MSBuild Projects="..\..\checklists\_delete\Project4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project4:Make">
+        <MSBuild Projects="..\..\checklists\_delete\Project4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ChecklistsServer;ChecklistClient;EMSDemoPkg;Project4"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ChecklistsServer:Clean;ChecklistClient:Clean;EMSDemoPkg:Clean;Project4:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ChecklistsServer:Make;ChecklistClient:Make;EMSDemoPkg:Make;Project4:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

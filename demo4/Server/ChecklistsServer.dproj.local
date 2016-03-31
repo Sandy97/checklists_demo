@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.851,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\ChecklistsServer.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.619,=emsserverapi.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.996,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\CheckListsRes.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.345,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\CategoriesRes.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\GroupsRes.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.539,=FireDACIBDriver.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\surveysRes.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\TasksRes.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\surveysRes.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.425,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.887,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\dm0.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.477,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\DictionariesRes.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.996,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\CheckListsRes.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,=dbrtl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.531,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.675,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.887,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\dm0.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.798,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.241,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.193,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\GroupsRes.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.345,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\CategoriesRes.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\GroupsRes.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.528,=FireDAC.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.477,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\DictionariesRes.dfm=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.535,=FireDACCommon.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\TasksRes.pas=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.217,=C:\ABC\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.193,C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\GroupsRes.dfm=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.438,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,=C:\Users\asovtsov\OneDrive\Документы\Workshops\checklists\Server\Unit2.pas</Transaction>
+    <Transaction>2016.03.31 14:12:24.214,C:\ABC\abc-demos\Demo4\Server\dm0.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
