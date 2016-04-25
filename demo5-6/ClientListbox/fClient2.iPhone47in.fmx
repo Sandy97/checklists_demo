@@ -1,0 +1,272 @@
+inherited Form1_iPhone47in: TForm1_iPhone47in
+  ClientHeight = 647
+  ClientWidth = 375
+  DesignerMasterStyle = 3
+  inherited tbcMain: TTabControl
+    Size.Width = 375.000000000000000000
+    Size.Height = 647.000000000000000000
+    inherited tabOpenClose: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Layout1: TLayout
+        Position.X = 4.000000000000000000
+        inherited edUserName: TEdit
+          Size.Height = 30.000000000000000000
+        end
+        inherited edPsw: TEdit
+          Size.Height = 30.000000000000000000
+        end
+        inherited edServer: TEdit
+          Size.Height = 30.000000000000000000
+        end
+      end
+    end
+    inherited tabTasks: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 66.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited tbarTop: TToolBar
+        Size.Width = 375.000000000000000000
+        Size.Height = 44.000000000000000000
+        TintColor = claYellowgreen
+        inherited Label2: TLabel
+          Size.Width = 287.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited sbMenu: TSpeedButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited SpeedButton2: TSpeedButton
+          Position.X = 331.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+      inherited tbarFoot: TToolBar
+        Position.Y = 603.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 44.000000000000000000
+        inherited btPrior: TButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited btNext: TButton
+          Position.X = 331.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited btSave: TButton
+          Position.X = 166.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+      inherited laTasks: TLayout
+        Size.Width = 365.000000000000000000
+        Size.Height = 549.000000000000000000
+        inherited loTaskName: TLayout
+          Size.Width = 365.000000000000000000
+          inherited paTaskNameHdr: TPanel
+            Size.Width = 365.000000000000000000
+            inherited laTaskNameHDR: TLabel
+              Size.Width = 261.000000000000000000
+            end
+            inherited laRecNo: TLabel
+              Position.X = 271.000000000000000000
+            end
+          end
+          inherited lbCLTitle: TLabel
+            Size.Width = 345.000000000000000000
+          end
+        end
+        inherited loPlace: TLayout
+          Size.Width = 365.000000000000000000
+          inherited paPlaceHdr: TPanel
+            Size.Width = 365.000000000000000000
+            inherited laPlaceNameHdr: TLabel
+              Size.Width = 355.000000000000000000
+            end
+          end
+          inherited lbPlaceNm: TLabel
+            Size.Width = 345.000000000000000000
+          end
+        end
+        inherited paTaskInfo: TPanel
+          Position.Y = 523.000000000000000000
+          Size.Width = 365.000000000000000000
+        end
+        inherited loComments: TLayout
+          Size.Width = 365.000000000000000000
+          Size.Height = 302.000000000000000000
+          inherited VertScrollBox1: TVertScrollBox
+            Size.Width = 365.000000000000000000
+            Size.Height = 263.000000000000000000
+            Viewport.Width = 360.000000000000000000
+            Viewport.Height = 258.000000000000000000
+            inherited lbComments: TLabel
+              Size.Width = 340.000000000000000000
+              Size.Height = 23.000000000000000000
+            end
+          end
+          inherited paCommentHdr: TPanel
+            Size.Width = 365.000000000000000000
+            inherited laCommentHdr: TLabel
+              Size.Width = 355.000000000000000000
+            end
+          end
+        end
+        inherited paTiming: TPanel
+          Margins.Right = 5.000000000000000000
+          Size.Width = 360.000000000000000000
+          inherited Label6: TLabel
+            Size.Width = 105.000000000000000000
+          end
+          inherited lbByDate: TLabel
+            Position.X = 115.000000000000000000
+            Size.Width = 144.000000000000000000
+          end
+          inherited Label7: TLabel
+            Position.X = 264.000000000000000000
+            Size.Width = 91.000000000000000000
+          end
+          inherited lbPriority: TLabel
+            Position.X = 355.000000000000000000
+          end
+        end
+        inherited paStatus: TPanel
+          Size.Width = 365.000000000000000000
+          inherited Label8: TLabel
+            Size.Width = 55.000000000000000000
+          end
+          inherited lbDone: TLabel
+            Position.X = 147.000000000000000000
+            Size.Width = 65.000000000000000000
+          end
+          inherited lbStatus: TLabel
+            Position.X = 70.000000000000000000
+            Size.Width = 77.000000000000000000
+          end
+          inherited lbNext_Q: TLabel
+            Padding.Left = 2.000000000000000000
+            Padding.Right = 2.000000000000000000
+            Position.X = 228.000000000000000000
+            Size.Width = 33.000000000000000000
+          end
+          inherited Label9: TLabel
+            Position.X = 217.000000000000000000
+            Size.Width = 11.000000000000000000
+          end
+          inherited Label10: TLabel
+            Margins.Left = 5.000000000000000000
+            Position.X = 266.000000000000000000
+            Size.Width = 10.000000000000000000
+          end
+        end
+      end
+    end
+    inherited tabCheckList: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 87.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited lstAnketa: TListBox
+        Viewport.Width = 365.000000000000000000
+        Viewport.Height = 549.000000000000000000
+        inherited ListBoxHeader1: TListBoxHeader
+          Size.Width = 40.000000000000000000
+          Size.Height = 44.000000000000000000
+          inherited Label1: TLabel
+            Size.Width = 40.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+        end
+      end
+      inherited AnketaHeaderToolBar: TToolBar
+        Position.Y = 6.000000000000000000
+        Size.Height = 44.000000000000000000
+        inherited btBackToTasks: TSpeedButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited SpeedButton1: TSpeedButton
+          Position.X = 6.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited Button1: TButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+        inherited Button2: TButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+    end
+    inherited tabNotes: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 60.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Layout2: TLayout
+        inherited loWho: TLayout
+          inherited Panel3: TPanel
+            inherited laWho: TLabel
+              inherited ComboBoxREP_ID: TComboBox
+                Size.Height = 30.000000000000000000
+              end
+            end
+          end
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Height = 44.000000000000000000
+        inherited btCancelAssignment: TButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+      inherited ToolBar2: TToolBar
+        Position.Y = 6.000000000000000000
+        Size.Height = 44.000000000000000000
+        inherited btnAddAssignment: TButton
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+    end
+    inherited tabLocation: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 11.000000000000000000
+      ExplicitSize.cy = 11.000000000000000000
+      inherited ToolBar3: TToolBar
+        Size.Height = 44.000000000000000000
+        inherited Label11: TLabel
+          Size.Height = 44.000000000000000000
+        end
+        inherited spBack: TSpeedButton
+          Size.Height = 44.000000000000000000
+        end
+        inherited swLocationSensor: TSwitch
+          Position.X = -15.000000000000000000
+          Size.Width = 55.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+      inherited ListBox1: TListBox
+        Viewport.Width = 375.000000000000000000
+        Viewport.Height = 88.000000000000000000
+      end
+    end
+  end
+  inherited StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+  end
+end

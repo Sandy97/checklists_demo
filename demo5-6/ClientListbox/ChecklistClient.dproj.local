@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<Pabc iOSSimulator="iPhone5"/>
+		<NoProfile Android="CB5A1XH07R" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.162,=C:\ABC\abc-demos\demo5\ClientListbox\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.691,C:\ABC\abc-demos\demo5\ClientListbox\Unit2.pas=C:\ABC\abc-demos\demo5\ClientListbox\uWDState.pas</Transaction>
+  </Transactions>
+</BorlandProject>
